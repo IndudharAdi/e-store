@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin:0px;
+}
+
+a{
+  color: darkslategray;
+  text-decoration: none;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* style Header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 1fr 0.1fr;
+}
+
+header a {
+  color: white;
+}
+
+#headerHomeIcon {
+  justify-self: start;
+}
+
+#headerTitle {
+  justify-self: center;
+}
+
+#headerCartIcon {
+  justify-self: end;
+}
+
+#search {
+  display:flex;
+}
+
+#search input {
+  margin-left: 10px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+/* Container For Flexboxes */
+section{
+  display: -webkit-flex;
+  display: flex;
+}
+/* Style The Navigation Menu */
+nav{
+   -webkit-flex: 0.5;
+   -ms-flex: 0.5;
+   flex: 0.1;
+   background: #ccc;
+   padding: 20px;
+}
+/* Style The list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+nav ul li {
+  padding-bottom: 5px;
+}
+
+nav ul li:hover {
+  color: blue;
+}
+
+main {
+  flex: 0.9;
+  padding-top: 20px;
+  min-height: 1600px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.25fr 1fr 0.25fr;
+  column-gap: 20px;
+}
+
+/* Style The Footer */
+footer{
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color:white;
+}
+
+footer a {
+  color: white;
+}
+
+@media (max-width: 600px) {
+   section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+   }
+}
+
+
+
+
+
+
+
+

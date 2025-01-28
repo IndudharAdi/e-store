@@ -1,0 +1,129 @@
+{
+    "categories": [
+        {"id": 1, "title": "Fridges"},
+        {"id": 2, "title": "Kettles"},
+        {"id": 3, "title": "Televisions"}
+    ],
+    "products":[
+        {
+            "id": 1, 
+            "catId": 1, 
+            "title": "Beko white Fridge Freezer",
+            "productCode": "BFFD3577",
+            "image": "10213776.avif",
+            "price" : 579,
+            "sku": "577318",
+            "description" : "The Beko BFFD3577 integrated tall freezer has a 220-liters capacoty that's ",
+            "specs" : {"dimensions": "177.5 x 54 x 54.5cm (H x W x D)", "capacity": "220 litesrs"},
+            "features": ["No need to defreost with frost free technology", "Suitable for outbuildings"],
+            "stock": 20
+
+        },
+        {
+            "id": 2, 
+            "catId": 1, 
+            "title": "Whirlpool white Fridge Freezer",
+            "productCode": "CUL55520",
+            "image": "10205942.jpg",
+            "price" : 169,
+            "sku": "287494",
+            "description" : "keep your fresh tasting great in te essentials CUL55520 underover ",
+            "specs" : {"dimensions": "84.5 x 55.3 x 58.4.5cm (H x W x D)", "capacity": "131 litesrs"},
+            "stock": 0
+        },
+        {
+            "id": 3, 
+            "catId": 1, 
+            "title": "Kenwood KTLD60X20 Tall Fridge",
+            "productCode": "KTLD60X20",
+            "image": "10205751.avif",
+            "price" : 449,
+            "sku": "287103",
+            "description" : "Attractive design\n\n The KTLD60X20 Tall Fridge i spacious and practicle with a sleek and more ",
+            "specs" : {"dimensions": "185.5 x 59.5 x 71.2cm (H x W x D)", "capacity": "370 litesrs"},
+            "features": ["Water dispenser (no Plumbing required)", "Food Frshness feature to keep your fruit and veg fresh"],
+            "stock": 10
+        },
+        {
+            "id": 4, 
+            "catId": 1, 
+            "title": "BEKO BLSD3577 Integrated TAll Fridge",
+            "productCode": "BLSD3577",
+            "image": "10212871.webp",
+            "price" : 449,
+            "sku": "287103",
+            "description" : "Chiller compartment \n\n get more room for your weekly shop with the beko BLSD3577 Integrated Tall Fridge",
+            "specs" : {"dimensions": "177.5 x 54 x 54.5cm (H x W x D)", "capacity": "309 litesrs"},
+            "features": ["Fast Chill rapidly lowers the temprature inside the fridge", "Open door alarm warns you if the door is open"],
+            "stock": 5
+        },
+        {
+            "id": 5, 
+            "catId": 1, 
+            "title": "ZANUSSI Multiflow ZRME38FW2 Tall Fridge White",
+            "productCode": "ZRME38FW2",
+            "image": "10213409.png",
+            "price" : 554,
+            "sku": "670811",
+            "description" : "MultiFlow technology\n\n the Zanussi Multiflow ZRME38FW2 Tall Fridge uses Multiflow technology to keep vegitables fresh",
+            "specs" : {"dimensions": "100.5 x 45 x 54.5cm (H x W x D)", "capacity": "180 litesrs"},
+            "features": ["Food Freshness feature to keep your fruit and veg fresh", "Fast Chill rapidly lowers the temprature inside the fridge"],
+            "stock": 5
+        },
+        {
+            "id": 6, 
+            "catId": 3, 
+            "title": "LG Television TvYU2345",
+            "productCode": "TvYU2345",
+            "image": "M10213562_001.jpg",
+            "price" : 119,
+            "sku": "567835",
+            "description" : "Android Technology With builtin Apps and wifi facility along with built-in Dolby Spekers Bring home 4K resolution in an impressive range of screen sizes with LG UHD TVs. Enjoy swift, easy browsing and tons of personalized recommendations including <b>300+ free LG channels you can't get anywhere else.</b>* Spend less time searching and more time streaming with LG webOS 24. Focus on the screen with a slim and simple-to-mount design for a stylish view no matter where you hang it. For gamers, you can quickly customize your gaming experience in one location with the LG Game Optimizer. And, with GeForce NOW included, you can automatically stream and get in the game ",
+            "specs" : {"dimensions": "22.2 Inches (H) x 38.1 Inches (W) x 2.2 Inches (D)"},
+            "features": ["Experience true-to-life visuals with 4K precision" ,"Resolution 3840 X 2160", "Enriched by Dolby Vision HDR, blazing fast WiFi 6","Browse popular streaming apps", "A thrilling watching experience powered by the α5 AI Processor Gen 7", "With webOS & LG Channels, browse your favorite streaming apps & view 300+ free channels. Enjoy up to 5 years of software updates with webOS Re:New* *Internet connection and subscriptions to streaming services are required; number of LG Channels subject to change. Software update will automatically download. Consumers who disable “auto-update” will receive a pop-up notification to accept or deny software update."],
+            "stock": 5
+        },
+        {
+            "id": 7, 
+            "catId": 3, 
+            "title": "Samsung TV DU7200",
+            "productCode": "DU7200",
+            "image": "M10222398.webp",
+            "price" : 299,
+            "sku": "68987",
+            "description" : "Have great entertainment all the time with this DU7200 32 Samsung class 720P/60 Motion Rate Smart HD TV.",
+            "specs" : {"dimensions":"17.1 Inches (H) x 29.3 Inches (W) x 2.7 Inches (D)","Class Size": 32, "Resolution": "3840 X 2160"},
+            "features": [" With a screen size of 32 inches this tv features built- in-Wi-Fi", "Two HDMI outputs, one USB input, HD 720P video quality, and a screen refresh rate of 60HZ"],
+            "stock": 3
+        },
+        {
+            "id": 8, 
+            "catId": 3, 
+            "title": "Vizo TV M55Q6",
+            "productCode": "M55Q6",
+            "image": "M10226866.webp",
+            "price" : 199,
+            "sku": "34312",
+            "description" : "The 3-sided, modern, and minimalist design offers maximum entertainment. See beauty on screen, and in person too.",
+            "specs" : {"dimension":"16.9 Inches (H) x 32.3 Inches (W) x 3.2 Inches (D)","Class Size": 43, "Resolution": "4K"},
+            "features": [" Dolby Vision combined with HDR10+, HDR10, and HLG for unparalleled contrast, detail, and nuanced colors"],
+            "stock": 0
+        },
+        {
+            "id": 8, 
+            "catId": 3, 
+            "title": "LG TV 43UN343H",
+            "productCode": "43UN343H",
+            "image": "M10213562_002.webp",
+            "price" : 110,
+            "sku": "76472",
+            "description" : "Provide guests with 4K HDR viewing for in-room information and entertainment with the LG 43UN343H 43 UHD 4K HDR Smart LED Hospitality TV",
+            "specs" : {"dimension":"16.9 Inches (H) x 32.3 Inches (W) x 3.2 Inches (D)","Class Size": 43, "Resolution": "4K"},
+            "features": [" Designed for the hospitality industry, the 43UN343H connects to your network via RJ45 Ethernet and supports LG Pro:idiom and Pro:Centric for secure content delivery and control."],
+            "stock": 4
+        }
+
+        
+
+    ]
+}
